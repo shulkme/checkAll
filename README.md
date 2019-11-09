@@ -1,48 +1,48 @@
 # checkAll
 > JQuery plugin with checkbox all selected
 
-## preview
+### preview
 
 ![demo preview](https://github.com/shulkme/checkAll/blob/master/preview.gif)
 
-> Example:
+### Example:
 
 ``` html
-    <table>
-        <thead>
-            <tr>
-                <th>
-                    <label class="checkbox">
-                        <input type="checkbox" class="checkAll">
-                        <span class="checkbox-label">checkAll</span>
-                    </label>
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <label class="checkbox">
-                        <input type="checkbox" name="checkGroup" value="1">
-                        <span class="checkbox-label">checkbox1</span>
-                    </label>
-                </td>
-            </tr>
-            ...
-            ...
-            ...
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>
-                    <button class="checkAll">CheckAll</button>
-                    <button class="invert">Invert</button>
-                    <button class="add">Add item</button>
-                    <span class="statusbar"></span>
-                </td>
-            </tr>
-        </tfoot>
-    </table>
+<table>
+    <thead>
+        <tr>
+            <th>
+                <label class="checkbox">
+                    <input type="checkbox" class="checkAll">
+                    <span class="checkbox-label">checkAll</span>
+                </label>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <label class="checkbox">
+                    <input type="checkbox" name="checkGroup" value="1">
+                    <span class="checkbox-label">checkbox1</span>
+                </label>
+            </td>
+        </tr>
+        ...
+        ...
+        ...
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>
+                <button class="checkAll">CheckAll</button>
+                <button class="invert">Invert</button>
+                <button class="add">Add item</button>
+                <span class="statusbar"></span>
+            </td>
+        </tr>
+    </tfoot>
+</table>
 ```
 ``` javascript
 $('.checkAll').checkAll({
