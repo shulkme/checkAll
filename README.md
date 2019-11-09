@@ -71,3 +71,26 @@ $('.checkAll').checkAll({
       }
 });
 ```
+### Result
+> Normally, all the data can be obtained by passing the parameters of the callback function. If you need to manually obtain it, you can directly call the getResult prototype.
+
+``` javascript
+//like this
+var obj = $('.checkAll').checked({
+//options
+});
+
+//then
+
+var xxx = obj.getResult();
+//It will return an object
+/* 
+xxx = {
+    len   : _len,   // items length
+    count : _count, // checked count
+    index : _index, // index set
+    nodes : _nodes, // items nodes
+    value : _value  // value set
+}
+*/
+```
