@@ -1,6 +1,8 @@
 # checkAll
 > JQuery plugin with checkbox all selected
 
+
+![中文文档](https://github.com/shulkme/checkAll/blob/master/CN.md)
 ### preview
 
 ![demo preview](https://github.com/shulkme/checkAll/blob/master/preview.gif)
