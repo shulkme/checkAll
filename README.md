@@ -57,7 +57,7 @@ $('.checkAll').checkAll({
       onCheck: function(id,val,len,count,ids,nodes,value){
           // checking callback
           // params : id,val,len,count,ids,value,nodes
-    
+          $('.statusbar').text(len+' items, checked '+count+' item');
       },
       onFull : function (count,ids,nodes) {
           // all in checked callback
@@ -83,7 +83,7 @@ var obj = $('.checkAll').checked({
 //then
 
 var xxx = obj.getResult();
-//It will return an object
+//It will return an json object
 /* 
 xxx = {
     len   : _len,   // items length
