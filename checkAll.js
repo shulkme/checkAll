@@ -13,18 +13,19 @@
         vagueCls: '',
         onInit : function(){
             // init callback
-            // return count, length , ids, value, nodes
+            // params: len, count, length , ids, value, nodes
         },
         onCheck: function(){
             // checking callback
-            // return id,val,count,ids,value,nodes
+            // params:  id,val,len,count,ids,value,nodes
         },
         onFull : function () {
             // all in checked callback
-            // return count, length , ids, value, nodes
+            // params:  count|len, length , ids, value, nodes
         },
         onEmpty : function () {
             //no checked items callback
+            // params: len
         }
     };
     var CheckAll = function (element,options) {
